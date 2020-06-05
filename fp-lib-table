@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /Users/frankkirschbaum/Entwicklung/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri /Users/frankkirschbaum/Entwicklung/SparkFun-KiCad-Libraries/Footprints)(options "")(descr ""))
+  (lib (name Connector_PinHeader_2.54mm)(type KiCad)(uri /Users/frankkirschbaum/Downloads/Connector_PinHeader_2.54mm.pretty)(options "")(descr ""))
+)
