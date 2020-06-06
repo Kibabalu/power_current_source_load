@@ -1,4 +1,4 @@
-19091261688643847
+19092853138686847
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51484,6 +51484,13 @@ heatsink TO-252 TO-263 TO-268
 0
 2
 1
+Heatsink
+Heatsink_Fischer_LA_6_150
+
+
+0
+2
+2
 Heatsink
 Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm
 Heatsink, 35mm x 13mm, 2x Fixation 2,5mm Drill, Soldering, Fischer SK104-STC-STIC,
