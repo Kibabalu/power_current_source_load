@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 5 7
 Title "Leistungsstromquelle/-senke"
 Date "01.06.2020"
 Rev "1.0"
@@ -13,24 +13,6 @@ Comment2 "70184 Stuttgart"
 Comment3 "Hohenheimer Straße 71A"
 Comment4 "Frank Kirschbaum"
 $EndDescr
-$Sheet
-S 900  950  3100 2000
-U 5EDECDDE
-F0 "netzteil" 50
-F1 "netzteil.sch" 50
-$EndSheet
-$Sheet
-S 4450 950  3250 2000
-U 5EDDF215
-F0 "steuerung_ueberwachung_analog" 50
-F1 "steuerung_ueberwachung_analog.sch" 50
-$EndSheet
-$Sheet
-S 900  3350 3100 2000
-U 5EE55323
-F0 "Leistungsteil" 50
-F1 "Leistungsteil.sch" 50
-$EndSheet
 $Bitmap
 Pos 10900 6850
 Scale 1.000000
@@ -270,4 +252,618 @@ B8 BA F2 0C AE AE 3C 83 AB 2B CF E0 EA CA 33 B8 BA F2 CC FF 00 13 EC 33 27 D3 C3
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Amplifier_Operational:TL074 U?
+U 5 1 6008A263
+P 4000 3850
+AR Path="/5EDDF215/6008A263" Ref="U?"  Part="5" 
+AR Path="/5EDDF215/60068EBE/6008A263" Ref="U5"  Part="5" 
+AR Path="/5EDDF215/5EF66133/6008A263" Ref="U?"  Part="5" 
+AR Path="/5EDDF215/5F0FAE01/6008A263" Ref="U?"  Part="5" 
+F 0 "U5" H 3958 3896 50  0000 L CNN
+F 1 "TL074" H 3958 3805 50  0000 L CNN
+F 2 "" H 3950 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4050 4050 50  0001 C CNN
+	5    4000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6008A25D
+P 3900 3450
+AR Path="/5EDDF215/6008A25D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A25D" Ref="#PWR059"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A25D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A25D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR059" H 3900 3300 50  0001 C CNN
+F 1 "+12V" H 3915 3623 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 4100 3450 0    50   ~ 0
+Versorgung Operationsverstärker
+Connection ~ 3900 3550
+Wire Wire Line
+	3900 3450 3900 3550
+$Comp
+L power:GND #PWR?
+U 1 1 6008A255
+P 3900 4250
+AR Path="/6008A255" Ref="#PWR?"  Part="1" 
+AR Path="/5EE24869/6008A255" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/6008A255" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A255" Ref="#PWR060"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A255" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A255" Ref="#PWR?"  Part="1" 
+F 0 "#PWR060" H 3900 4000 50  0001 C CNN
+F 1 "GND" H 3905 4077 50  0000 C CNN
+F 2 "" H 3900 4250 50  0001 C CNN
+F 3 "" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4150
+Wire Wire Line
+	3900 4150 3900 4250
+Wire Wire Line
+	2250 4150 2250 4250
+Wire Wire Line
+	2250 3450 2250 3550
+$Comp
+L power:+12V #PWR?
+U 1 1 6008A243
+P 2250 3450
+AR Path="/6008A243" Ref="#PWR?"  Part="1" 
+AR Path="/5EE24869/6008A243" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/6008A243" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A243" Ref="#PWR055"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A243" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A243" Ref="#PWR?"  Part="1" 
+F 0 "#PWR055" H 2250 3300 50  0001 C CNN
+F 1 "+12V" H 2265 3623 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6008A23D
+P 2250 4250
+AR Path="/6008A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5EE24869/6008A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/6008A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A23D" Ref="#PWR056"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A23D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A23D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR056" H 2250 4000 50  0001 C CNN
+F 1 "GND" H 2255 4077 50  0000 C CNN
+F 2 "" H 2250 4250 50  0001 C CNN
+F 3 "" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4000 3400 4150
+Wire Wire Line
+	3400 3700 3400 3550
+Wire Wire Line
+	3400 4150 3050 4150
+Connection ~ 3050 4150
+Wire Wire Line
+	3050 4000 3050 4150
+Wire Wire Line
+	3400 3550 3050 3550
+Connection ~ 3050 3550
+Wire Wire Line
+	3050 3550 3050 3700
+$Comp
+L Device:C C?
+U 1 1 6008A22D
+P 3400 3850
+AR Path="/6008A22D" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A22D" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A22D" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A22D" Ref="C52"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A22D" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A22D" Ref="C?"  Part="1" 
+F 0 "C52" H 3515 3896 50  0000 L CNN
+F 1 "100p" H 3515 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3438 3700 50  0001 C CNN
+F 3 "~" H 3400 3850 50  0001 C CNN
+	1    3400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6008A227
+P 3050 3850
+AR Path="/6008A227" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A227" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A227" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A227" Ref="C50"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A227" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A227" Ref="C?"  Part="1" 
+F 0 "C50" H 3165 3896 50  0000 L CNN
+F 1 "10n" H 3165 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3088 3700 50  0001 C CNN
+F 3 "~" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4150 2250 4150
+Wire Wire Line
+	3050 4150 2700 4150
+Connection ~ 2700 4150
+Wire Wire Line
+	2700 4000 2700 4150
+Wire Wire Line
+	2250 3550 2700 3550
+Wire Wire Line
+	2700 3550 3050 3550
+Connection ~ 2700 3550
+Wire Wire Line
+	2700 3550 2700 3700
+$Comp
+L Device:CP C?
+U 1 1 6008A21F
+P 2700 3850
+AR Path="/6008A21F" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A21F" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A21F" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A21F" Ref="C47"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A21F" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A21F" Ref="C?"  Part="1" 
+F 0 "C47" H 2818 3896 50  0000 L CNN
+F 1 "1u" H 2818 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2738 3700 50  0001 C CNN
+F 3 "~" H 2700 3850 50  0001 C CNN
+	1    2700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4000 5000 4150
+Wire Wire Line
+	5000 3700 5000 3550
+Wire Wire Line
+	5000 4150 4650 4150
+Connection ~ 4650 4150
+Wire Wire Line
+	4650 4000 4650 4150
+Wire Wire Line
+	5000 3550 4650 3550
+Connection ~ 4650 3550
+Wire Wire Line
+	4650 3550 4650 3700
+$Comp
+L Device:C C?
+U 1 1 6008A20E
+P 5000 3850
+AR Path="/6008A20E" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A20E" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A20E" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A20E" Ref="C57"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A20E" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A20E" Ref="C?"  Part="1" 
+F 0 "C57" H 5115 3896 50  0000 L CNN
+F 1 "100p" H 5115 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 5038 3700 50  0001 C CNN
+F 3 "~" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6008A208
+P 4650 3850
+AR Path="/6008A208" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A208" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A208" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A208" Ref="C56"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A208" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A208" Ref="C?"  Part="1" 
+F 0 "C56" H 4765 3896 50  0000 L CNN
+F 1 "10n" H 4765 3805 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 4688 3700 50  0001 C CNN
+F 3 "~" H 4650 3850 50  0001 C CNN
+	1    4650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4150 4300 4150
+Wire Wire Line
+	4650 4150 4300 4150
+Connection ~ 4300 4150
+Wire Wire Line
+	4300 4000 4300 4150
+Wire Wire Line
+	3900 3550 4300 3550
+Wire Wire Line
+	4300 3550 4650 3550
+Connection ~ 4300 3550
+Wire Wire Line
+	4300 3550 4300 3700
+$Comp
+L Device:CP C?
+U 1 1 6008A200
+P 4300 3850
+AR Path="/6008A200" Ref="C?"  Part="1" 
+AR Path="/5EE24869/6008A200" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/6008A200" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/6008A200" Ref="C55"  Part="1" 
+AR Path="/5EDDF215/5EF66133/6008A200" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/6008A200" Ref="C?"  Part="1" 
+F 0 "C55" H 4418 3896 50  0000 L CNN
+F 1 "1u" H 4418 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4338 3700 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 3450 0    50   ~ 0
+Versorgung Komparator
+Connection ~ 2250 3550
+Connection ~ 2250 4150
+$Comp
+L Comparator:LM393 U?
+U 3 1 6008A1F9
+P 2350 3850
+AR Path="/6008A1F9" Ref="U?"  Part="3" 
+AR Path="/5EE24869/6008A1F9" Ref="U?"  Part="3" 
+AR Path="/5EDDF215/6008A1F9" Ref="U?"  Part="3" 
+AR Path="/5EDDF215/60068EBE/6008A1F9" Ref="U6"  Part="3" 
+AR Path="/5EDDF215/5EF66133/6008A1F9" Ref="U?"  Part="3" 
+AR Path="/5EDDF215/5F0FAE01/6008A1F9" Ref="U?"  Part="3" 
+F 0 "U6" H 2308 3896 50  0000 L CNN
+F 1 "LM393" H 2308 3805 50  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 2350 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 2350 3850 50  0001 C CNN
+	3    2350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EF6294E
+P 7300 2500
+AR Path="/5EF6294E" Ref="H?"  Part="1" 
+AR Path="/5F29B38F/5EF6294E" Ref="H?"  Part="1" 
+AR Path="/5EE55323/5EF6294E" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5EF6294E" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5EF6294E" Ref="H5"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5EF6294E" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5EF6294E" Ref="H?"  Part="1" 
+F 0 "H5" H 7400 2546 50  0000 L CNN
+F 1 "MountingHole" H 7400 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 7300 2500 50  0001 C CNN
+F 3 "~" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EF62954
+P 7300 2850
+AR Path="/5EF62954" Ref="H?"  Part="1" 
+AR Path="/5F29B38F/5EF62954" Ref="H?"  Part="1" 
+AR Path="/5EE55323/5EF62954" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5EF62954" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5EF62954" Ref="H6"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5EF62954" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5EF62954" Ref="H?"  Part="1" 
+F 0 "H6" H 7400 2896 50  0000 L CNN
+F 1 "MountingHole" H 7400 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 7300 2850 50  0001 C CNN
+F 3 "~" H 7300 2850 50  0001 C CNN
+	1    7300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EF6295A
+P 8050 2850
+AR Path="/5EF6295A" Ref="H?"  Part="1" 
+AR Path="/5F29B38F/5EF6295A" Ref="H?"  Part="1" 
+AR Path="/5EE55323/5EF6295A" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5EF6295A" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5EF6295A" Ref="H8"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5EF6295A" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5EF6295A" Ref="H?"  Part="1" 
+F 0 "H8" H 8150 2896 50  0000 L CNN
+F 1 "MountingHole" H 8150 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 8050 2850 50  0001 C CNN
+F 3 "~" H 8050 2850 50  0001 C CNN
+	1    8050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5EF62960
+P 8050 2500
+AR Path="/5EF62960" Ref="H?"  Part="1" 
+AR Path="/5F29B38F/5EF62960" Ref="H?"  Part="1" 
+AR Path="/5EE55323/5EF62960" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5EF62960" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5EF62960" Ref="H7"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5EF62960" Ref="H?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5EF62960" Ref="H?"  Part="1" 
+F 0 "H7" H 8150 2546 50  0000 L CNN
+F 1 "MountingHole" H 8150 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm" H 8050 2500 50  0001 C CNN
+F 3 "~" H 8050 2500 50  0001 C CNN
+	1    8050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F1910AD
+P 4150 1400
+AR Path="/5EE24869/5F1910AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDECDDE/5F1910AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F1910AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F1910AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910AD" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 4150 1250 50  0001 C CNN
+F 1 "+12V" V 4165 1528 50  0000 L CNN
+F 2 "" H 4150 1400 50  0001 C CNN
+F 3 "" H 4150 1400 50  0001 C CNN
+	1    4150 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F1910B3
+P 1800 1750
+AR Path="/5EE55323/5F1910B3" Ref="J?"  Part="1" 
+AR Path="/5EE55323/5EEDF763/5F1910B3" Ref="J?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910B3" Ref="J17"  Part="1" 
+F 0 "J17" H 1908 1931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1908 1840 50  0000 C CNN
+F 2 "" H 1800 1750 50  0001 C CNN
+F 3 "~" H 1800 1750 50  0001 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1750 2200 1750
+Wire Wire Line
+	2000 1850 2200 1850
+$Comp
+L Device:CP C?
+U 1 1 5F1910BB
+P 2550 1800
+AR Path="/5EE24869/5F1910BB" Ref="C?"  Part="1" 
+AR Path="/5EDECDDE/5F1910BB" Ref="C?"  Part="1" 
+AR Path="/5F1910BB" Ref="C?"  Part="1" 
+AR Path="/5EE55323/5EEDF763/5F1910BB" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910BB" Ref="C45"  Part="1" 
+F 0 "C45" H 2668 1846 50  0000 L CNN
+F 1 "1000u" H 2668 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2588 1650 50  0001 C CNN
+F 3 "~" H 2550 1800 50  0001 C CNN
+	1    2550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1400 2550 1650
+Wire Wire Line
+	2550 1950 2550 2200
+$Comp
+L Device:C C?
+U 1 1 5F1910C3
+P 3000 1800
+AR Path="/5EE24869/5F1910C3" Ref="C?"  Part="1" 
+AR Path="/5EDECDDE/5F1910C3" Ref="C?"  Part="1" 
+AR Path="/5F1910C3" Ref="C?"  Part="1" 
+AR Path="/5EE55323/5EEDF763/5F1910C3" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910C3" Ref="C48"  Part="1" 
+F 0 "C48" H 3115 1846 50  0000 L CNN
+F 1 "10u" H 3115 1755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm" H 3038 1650 50  0001 C CNN
+F 3 "~" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1910C9
+P 3900 1800
+AR Path="/5EE24869/5F1910C9" Ref="C?"  Part="1" 
+AR Path="/5EDECDDE/5F1910C9" Ref="C?"  Part="1" 
+AR Path="/5F1910C9" Ref="C?"  Part="1" 
+AR Path="/5EE55323/5EEDF763/5F1910C9" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910C9" Ref="C54"  Part="1" 
+F 0 "C54" H 4015 1846 50  0000 L CNN
+F 1 "1n" H 4015 1755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm" H 3938 1650 50  0001 C CNN
+F 3 "~" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 3000 1650
+Wire Wire Line
+	3000 1950 3000 2200
+Wire Wire Line
+	3900 1650 3900 1400
+Wire Wire Line
+	3900 1950 3900 2200
+Wire Wire Line
+	3900 1400 4150 1400
+Connection ~ 3900 1400
+Wire Wire Line
+	2550 1400 3000 1400
+Wire Wire Line
+	2550 2200 3000 2200
+Wire Wire Line
+	3450 2200 3900 2200
+Wire Wire Line
+	2200 1400 2550 1400
+Wire Wire Line
+	2200 1400 2200 1750
+Connection ~ 2550 1400
+Wire Wire Line
+	2200 2200 2550 2200
+Wire Wire Line
+	2200 1850 2200 2200
+Connection ~ 2550 2200
+$Comp
+L Device:C C?
+U 1 1 5F1910DE
+P 3450 1800
+AR Path="/5EE24869/5F1910DE" Ref="C?"  Part="1" 
+AR Path="/5EDECDDE/5F1910DE" Ref="C?"  Part="1" 
+AR Path="/5F1910DE" Ref="C?"  Part="1" 
+AR Path="/5EE55323/5EEDF763/5F1910DE" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F1910DE" Ref="C53"  Part="1" 
+F 0 "C53" H 3565 1846 50  0000 L CNN
+F 1 "100n" H 3565 1755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P10.00mm" H 3488 1650 50  0001 C CNN
+F 3 "~" H 3450 1800 50  0001 C CNN
+	1    3450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1400 3450 1400
+Connection ~ 3000 1400
+Wire Wire Line
+	3450 1650 3450 1400
+Connection ~ 3450 1400
+Wire Wire Line
+	3450 1400 3900 1400
+Wire Wire Line
+	3450 1950 3450 2200
+Wire Wire Line
+	3450 2200 3000 2200
+Connection ~ 3450 2200
+Connection ~ 3000 2200
+$Comp
+L power:+12V #PWR?
+U 1 1 5F3345CF
+P 2300 4900
+AR Path="/5EDDF215/5F3345CF" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F3345CF" Ref="#PWR057"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5F3345CF" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5F3345CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR057" H 2300 4750 50  0001 C CNN
+F 1 "+12V" H 2315 5073 50  0000 C CNN
+F 2 "" H 2300 4900 50  0001 C CNN
+F 3 "" H 2300 4900 50  0001 C CNN
+	1    2300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4900 2300 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5F3345D8
+P 2300 5700
+AR Path="/5F3345D8" Ref="#PWR?"  Part="1" 
+AR Path="/5EE24869/5F3345D8" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F3345D8" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F3345D8" Ref="#PWR058"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5F3345D8" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5F3345D8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR058" H 2300 5450 50  0001 C CNN
+F 1 "GND" H 2305 5527 50  0000 C CNN
+F 2 "" H 2300 5700 50  0001 C CNN
+F 3 "" H 2300 5700 50  0001 C CNN
+	1    2300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5600 2300 5700
+Text GLabel 2000 5000 0    50   Input ~ 0
+555_V+
+Connection ~ 2300 5000
+Connection ~ 2300 5600
+$Comp
+L Device:CP C?
+U 1 1 5F3345FC
+P 2650 5300
+AR Path="/5F3345FC" Ref="C?"  Part="1" 
+AR Path="/5EE24869/5F3345FC" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F3345FC" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F3345FC" Ref="C46"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5F3345FC" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5F3345FC" Ref="C?"  Part="1" 
+F 0 "C46" H 2768 5346 50  0000 L CNN
+F 1 "1u" H 2768 5255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2688 5150 50  0001 C CNN
+F 3 "~" H 2650 5300 50  0001 C CNN
+	1    2650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5000 2650 5150
+Connection ~ 2650 5000
+Wire Wire Line
+	2650 5000 3000 5000
+Wire Wire Line
+	2650 5450 2650 5600
+Connection ~ 2650 5600
+Wire Wire Line
+	3000 5600 2650 5600
+$Comp
+L Device:C C?
+U 1 1 5F3345EE
+P 3000 5300
+AR Path="/5F3345EE" Ref="C?"  Part="1" 
+AR Path="/5EE24869/5F3345EE" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F3345EE" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F3345EE" Ref="C49"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5F3345EE" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5F3345EE" Ref="C?"  Part="1" 
+F 0 "C49" H 3115 5346 50  0000 L CNN
+F 1 "10n" H 3115 5255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3038 5150 50  0001 C CNN
+F 3 "~" H 3000 5300 50  0001 C CNN
+	1    3000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3345E8
+P 3350 5300
+AR Path="/5F3345E8" Ref="C?"  Part="1" 
+AR Path="/5EE24869/5F3345E8" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F3345E8" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/60068EBE/5F3345E8" Ref="C51"  Part="1" 
+AR Path="/5EDDF215/5EF66133/5F3345E8" Ref="C?"  Part="1" 
+AR Path="/5EDDF215/5F0FAE01/5F3345E8" Ref="C?"  Part="1" 
+F 0 "C51" H 3465 5346 50  0000 L CNN
+F 1 "100p" H 3465 5255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 3388 5150 50  0001 C CNN
+F 3 "~" H 3350 5300 50  0001 C CNN
+	1    3350 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5000 3000 5150
+Connection ~ 3000 5000
+Wire Wire Line
+	3350 5000 3000 5000
+Wire Wire Line
+	3000 5450 3000 5600
+Connection ~ 3000 5600
+Wire Wire Line
+	3350 5600 3000 5600
+Wire Wire Line
+	3350 5150 3350 5000
+Wire Wire Line
+	3350 5450 3350 5600
+Text Notes 2500 4900 0    50   ~ 0
+Versorgung Operationsverstärker
+Wire Wire Line
+	2300 5000 2650 5000
+Wire Wire Line
+	2300 5600 2650 5600
+Wire Wire Line
+	2000 5000 2300 5000
+Wire Wire Line
+	2000 5600 2300 5600
+Text GLabel 2000 5600 0    50   Input ~ 0
+555_V-
 $EndSCHEMATC
