@@ -6,5 +6,4 @@ A KiCAD project.
 
 The power supply PCB:
 
-![The power supply schematics](netzteil.ps)
 ![The power supply PCB](netzteil.png)
