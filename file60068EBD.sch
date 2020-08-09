@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 3
 Title "Leistungsstromquelle/-senke"
 Date "01.06.2020"
 Rev "1.0"

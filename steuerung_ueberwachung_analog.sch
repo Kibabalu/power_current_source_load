@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 1 3
 Title "Leistungsstromquelle/-senke"
 Date "01.06.2020"
 Rev "1.0"
@@ -611,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 4150 2900 4150
 $Sheet
-S 4650 3500 950  700 
+S 4650 2200 950  700 
 U 60068EBE
 F0 "Versorgungen & Mechanik" 50
 F1 "file60068EBD.sch" 50
@@ -1878,4 +1878,10 @@ F 3 "" H 900 1200 50  0001 C CNN
 	1    900  1200
 	0    1    1    0   
 $EndComp
+$Sheet
+S 4750 3450 1200 850 
+U 5F28C6A8
+F0 "Sollwert" 50
+F1 "file5F28C6A7.sch" 50
+$EndSheet
 $EndSCHEMATC

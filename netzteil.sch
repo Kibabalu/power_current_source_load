@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "Leistungsstromquelle/-senke"
 Date "01.06.2020"
 Rev "1.0"
@@ -16,16 +16,16 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F29F68A
-P 5400 7350
+P 5350 7250
 AR Path="/5F29F68A" Ref="H1"  Part="1" 
 AR Path="/5F29B38F/5F29F68A" Ref="H?"  Part="1" 
 AR Path="/5EE55323/5F29F68A" Ref="H?"  Part="1" 
 AR Path="/5EDECDDE/5F29F68A" Ref="H?"  Part="1" 
-F 0 "H1" H 5500 7396 50  0000 L CNN
-F 1 "MountingHole" H 5500 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5400 7350 50  0001 C CNN
-F 3 "~" H 5400 7350 50  0001 C CNN
-	1    5400 7350
+F 0 "H1" H 5450 7296 50  0000 L CNN
+F 1 "MountingHole" H 5450 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5350 7250 50  0001 C CNN
+F 3 "~" H 5350 7250 50  0001 C CNN
+	1    5350 7250
 	1    0    0    -1  
 $EndComp
 $Bitmap
@@ -267,536 +267,259 @@ B8 BA F2 0C AE AE 3C 83 AB 2B CF E0 EA CA 33 B8 BA F2 CC FF 00 13 EC 33 27 D3 C3
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 3600 4100 2    50   ~ 0
-Anzeige: \nSpannungsversorgung\nvorhanden
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5FF6390B
-P 5400 7600
+P 5350 7500
 AR Path="/5FF6390B" Ref="H2"  Part="1" 
 AR Path="/5F29B38F/5FF6390B" Ref="H?"  Part="1" 
 AR Path="/5EE55323/5FF6390B" Ref="H?"  Part="1" 
 AR Path="/5EDECDDE/5FF6390B" Ref="H?"  Part="1" 
-F 0 "H2" H 5500 7646 50  0000 L CNN
-F 1 "MountingHole" H 5500 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5400 7600 50  0001 C CNN
-F 3 "~" H 5400 7600 50  0001 C CNN
-	1    5400 7600
+F 0 "H2" H 5450 7546 50  0000 L CNN
+F 1 "MountingHole" H 5450 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5350 7500 50  0001 C CNN
+F 3 "~" H 5350 7500 50  0001 C CNN
+	1    5350 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5FF63DB7
-P 6200 7350
+P 6150 7250
 AR Path="/5FF63DB7" Ref="H3"  Part="1" 
 AR Path="/5F29B38F/5FF63DB7" Ref="H?"  Part="1" 
 AR Path="/5EE55323/5FF63DB7" Ref="H?"  Part="1" 
 AR Path="/5EDECDDE/5FF63DB7" Ref="H?"  Part="1" 
-F 0 "H3" H 6300 7396 50  0000 L CNN
-F 1 "MountingHole" H 6300 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6200 7350 50  0001 C CNN
-F 3 "~" H 6200 7350 50  0001 C CNN
-	1    6200 7350
+F 0 "H3" H 6250 7296 50  0000 L CNN
+F 1 "MountingHole" H 6250 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6150 7250 50  0001 C CNN
+F 3 "~" H 6150 7250 50  0001 C CNN
+	1    6150 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5FF641EC
-P 6200 7600
+P 6150 7500
 AR Path="/5FF641EC" Ref="H4"  Part="1" 
 AR Path="/5F29B38F/5FF641EC" Ref="H?"  Part="1" 
 AR Path="/5EE55323/5FF641EC" Ref="H?"  Part="1" 
 AR Path="/5EDECDDE/5FF641EC" Ref="H?"  Part="1" 
-F 0 "H4" H 6300 7646 50  0000 L CNN
-F 1 "MountingHole" H 6300 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6200 7600 50  0001 C CNN
-F 3 "~" H 6200 7600 50  0001 C CNN
-	1    6200 7600
+F 0 "H4" H 6250 7546 50  0000 L CNN
+F 1 "MountingHole" H 6250 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 6150 7500 50  0001 C CNN
+F 3 "~" H 6150 7500 50  0001 C CNN
+	1    6150 7500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:-12V #PWR09
-U 1 1 5F0FF9CB
-P 5550 5300
-F 0 "#PWR09" H 5550 5400 50  0001 C CNN
-F 1 "-12V" H 5565 5473 50  0000 C CNN
-F 2 "" H 5550 5300 50  0001 C CNN
-F 3 "" H 5550 5300 50  0001 C CNN
-	1    5550 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR08
-U 1 1 5F0FD689
-P 5550 4800
-F 0 "#PWR08" H 5550 4650 50  0001 C CNN
-F 1 "+12V" H 5565 4973 50  0000 C CNN
-F 2 "" H 5550 4800 50  0001 C CNN
-F 3 "" H 5550 4800 50  0001 C CNN
-	1    5550 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 5F1EC706
-P 6050 5050
-F 0 "J3" H 6022 5074 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 6022 4983 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6050 5050 50  0001 C CNN
-F 3 "~" H 6050 5050 50  0001 C CNN
-	1    6050 5050
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 5050 5850 5050
-Wire Wire Line
-	5850 5150 5550 5150
-Wire Wire Line
-	5550 5150 5550 5300
-Wire Wire Line
-	5850 4950 5550 4950
-Wire Wire Line
-	5550 4950 5550 4800
-Text Notes 5750 4700 0    50   ~ 0
-Versorgung +12V/-12V
-$Comp
-L Device:LED D1
-U 1 1 600A8881
-P 2900 4550
-F 0 "D1" V 2939 4432 50  0000 R CNN
-F 1 "LED" V 2848 4432 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 4550 50  0001 C CNN
-F 3 "~" H 2900 4550 50  0001 C CNN
-	1    2900 4550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 600A8887
-P 2550 4550
-F 0 "R1" H 2620 4596 50  0000 L CNN
-F 1 "4k7" H 2620 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2480 4550 50  0001 C CNN
-F 3 "~" H 2550 4550 50  0001 C CNN
-	1    2550 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 600A8893
-P 2900 5450
-F 0 "R2" H 2970 5496 50  0000 L CNN
-F 1 "100" H 2970 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2830 5450 50  0001 C CNN
-F 3 "~" H 2900 5450 50  0001 C CNN
-	1    2900 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 4350 2550 4400
-Wire Wire Line
-	2550 4700 2550 4950
-Wire Wire Line
-	2600 4950 2550 4950
-Connection ~ 2550 4950
-Wire Wire Line
-	2550 4950 2550 5000
-Wire Wire Line
-	2900 4700 2900 4750
-Wire Wire Line
-	2900 4350 2900 4400
-Wire Wire Line
-	2900 5150 2900 5200
-Wire Wire Line
-	2850 5200 2900 5200
-Connection ~ 2900 5200
-Wire Wire Line
-	2900 5200 2900 5300
-Wire Wire Line
-	2550 5400 2550 5650
-Wire Wire Line
-	2900 5600 2900 5650
-$Comp
-L Transistor_BJT:BC847 Q?
-U 1 1 600A88B8
-P 2800 4950
-AR Path="/5EDECDDE/5FCFCB3B/600A88B8" Ref="Q?"  Part="1" 
-AR Path="/5EDECDDE/600A88B8" Ref="Q?"  Part="1" 
-AR Path="/600A88B8" Ref="Q2"  Part="1" 
-F 0 "Q2" H 2991 4996 50  0000 L CNN
-F 1 "BC847" H 2991 4905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 4875 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2800 4950 50  0001 L CNN
-	1    2800 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q?
-U 1 1 600A88BE
-P 2650 5200
-AR Path="/5EDECDDE/5FCFCB3B/600A88BE" Ref="Q?"  Part="1" 
-AR Path="/5EDECDDE/600A88BE" Ref="Q?"  Part="1" 
-AR Path="/600A88BE" Ref="Q1"  Part="1" 
-F 0 "Q1" H 2841 5246 50  0000 L CNN
-F 1 "BC847" H 2841 5155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 5125 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2650 5200 50  0001 L CNN
-	1    2650 5200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 600A88C4
-P 3550 4550
-F 0 "J2" H 3600 4650 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 3400 4850 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3550 4550 50  0001 C CNN
-F 3 "~" H 3550 4550 50  0001 C CNN
-	1    3550 4550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 4550 3300 4550
-Wire Wire Line
-	3300 4550 3300 4400
-Wire Wire Line
-	3300 4400 2900 4400
-Connection ~ 2900 4400
-Wire Wire Line
-	3350 4650 3300 4650
-Wire Wire Line
-	3300 4650 3300 4750
-Wire Wire Line
-	3300 4750 2900 4750
-Connection ~ 2900 4750
-$Comp
-L power:GND #PWR?
-U 1 1 60C3613F
-P 5200 5050
-AR Path="/5EE24869/60C3613F" Ref="#PWR?"  Part="1" 
-AR Path="/5EDECDDE/60C3613F" Ref="#PWR?"  Part="1" 
-AR Path="/60C3613F" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 5200 4800 50  0001 C CNN
-F 1 "GND" H 5205 4877 50  0000 C CNN
-F 2 "" H 5200 5050 50  0001 C CNN
-F 3 "" H 5200 5050 50  0001 C CNN
-	1    5200 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8200 5000 8200 5150
-Wire Wire Line
-	8200 4900 8200 4750
-Wire Wire Line
-	8200 4900 8600 4900
-Wire Wire Line
-	8200 5000 8600 5000
-$Comp
-L power:GND #PWR?
-U 1 1 613490CF
-P 8200 5150
-AR Path="/5EE24869/613490CF" Ref="#PWR?"  Part="1" 
-AR Path="/5EDECDDE/613490CF" Ref="#PWR?"  Part="1" 
-AR Path="/613490CF" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 8200 4900 50  0001 C CNN
-F 1 "GND" H 8205 4977 50  0000 C CNN
-F 2 "" H 8200 5150 50  0001 C CNN
-F 3 "" H 8200 5150 50  0001 C CNN
-	1    8200 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 8200 4750 1    50   Input ~ 0
-Ua
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 6136DB4F
-P 8800 4900
-F 0 "J4" H 8772 4874 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 9150 4700 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 4900 50  0001 C CNN
-F 3 "~" H 8800 4900 50  0001 C CNN
-	1    8800 4900
-	-1   0    0    -1  
-$EndComp
-Text Notes 1050 3200 0    50   ~ 0
-min. 28VDC bis \nmax. 37.4VDC
-$Comp
-L dk_Terminal-Blocks-Wire-to-Board:OSTTC022162 J?
-U 1 1 5EF1C03B
-P 1350 2800
-AR Path="/5EE24869/5EF1C03B" Ref="J?"  Part="1" 
-AR Path="/5EDECDDE/5EF1C03B" Ref="J?"  Part="1" 
-AR Path="/5EF1C03B" Ref="J1"  Part="1" 
-F 0 "J1" V 1125 2783 50  0000 C CNN
-F 1 "OSTTC022162" V 1216 2783 50  0000 C CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 1550 3000 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 1550 3100 60  0001 L CNN
-F 4 "ED2609-ND" H 1550 3200 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC022162" H 1550 3300 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1550 3400 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 1550 3500 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 1550 3600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 1550 3700 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 1550 3800 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 1550 3900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1550 4000 60  0001 L CNN "Status"
-	1    1350 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
-U 1 1 5FC15A97
-P 1700 2800
-AR Path="/5EE24869/5FC15A97" Ref="F?"  Part="1" 
-AR Path="/5EDECDDE/5FC15A97" Ref="F?"  Part="1" 
-AR Path="/5FC15A97" Ref="F1"  Part="1" 
-F 0 "F1" V 1503 2800 50  0000 C CNN
-F 1 "Fuse" V 1594 2800 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_EATON_HBW_Vertical_Closed" V 1630 2800 50  0001 C CNN
-F 3 "~" H 1700 2800 50  0001 C CNN
-	1    1700 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1550 2800 1450 2800
-Wire Wire Line
-	7150 3300 7150 3150
-Wire Wire Line
-	7150 2350 7150 2500
+Text Notes 8050 4750 0    50   ~ 0
+Versorgung +15V/-15V
 $Sheet
-S 7600 2200 1750 1350
-U 5FCFCB3B
-F0 "einstellbare_spannungsquelle" 50
-F1 "file5FCFCB3A.sch" 50
-F2 "Ua_out" O R 9350 2600 50 
-F3 "GND_out" O R 9350 3150 50 
-F4 "GND_in" I L 7600 2850 50 
-F5 "+12V_in" I L 7600 2500 50 
-F6 "-12V_in" I L 7600 3150 50 
-$EndSheet
-$Comp
-L power:+12V #PWR010
-U 1 1 60C366A6
-P 7150 2350
-F 0 "#PWR010" H 7150 2200 50  0001 C CNN
-F 1 "+12V" H 7165 2523 50  0000 C CNN
-F 2 "" H 7150 2350 50  0001 C CNN
-F 3 "" H 7150 2350 50  0001 C CNN
-	1    7150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61392AC0
-P 9600 3150
-AR Path="/5EE24869/61392AC0" Ref="#PWR?"  Part="1" 
-AR Path="/5EDECDDE/61392AC0" Ref="#PWR?"  Part="1" 
-AR Path="/61392AC0" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 9600 2900 50  0001 C CNN
-F 1 "GND" H 9605 2977 50  0000 C CNN
-F 2 "" H 9600 3150 50  0001 C CNN
-F 3 "" H 9600 3150 50  0001 C CNN
-	1    9600 3150
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9550 2600 2    50   Input ~ 0
-Ua
-Wire Wire Line
-	9550 2600 9350 2600
-$Comp
-L power:GND #PWR?
-U 1 1 60C2416E
-P 7150 2900
-AR Path="/5EE24869/60C2416E" Ref="#PWR?"  Part="1" 
-AR Path="/5EDECDDE/60C2416E" Ref="#PWR?"  Part="1" 
-AR Path="/60C2416E" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 7150 2650 50  0001 C CNN
-F 1 "GND" H 7155 2727 50  0000 C CNN
-F 2 "" H 7150 2900 50  0001 C CNN
-F 3 "" H 7150 2900 50  0001 C CNN
-	1    7150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR012
-U 1 1 60C4072D
-P 7150 3300
-F 0 "#PWR012" H 7150 3400 50  0001 C CNN
-F 1 "-12V" H 7165 3473 50  0000 C CNN
-F 2 "" H 7150 3300 50  0001 C CNN
-F 3 "" H 7150 3300 50  0001 C CNN
-	1    7150 3300
-	-1   0    0    1   
-$EndComp
-$Sheet
-S 2300 2200 1800 1350
+S 3500 2350 1800 1350
 U 5F658195
-F0 "Verpolschutz und Glättung" 50
+F0 "Verpolschutz und Filterung" 50
 F1 "file5F658194.sch" 50
-F2 "U_ein" I L 2300 2600 50 
-F3 "GND_ein" I L 2300 3150 50 
-F4 "VCC_aus" O R 4100 2600 50 
-F5 "GND_aus" O R 4100 3150 50 
+F2 "VDC+" O R 5300 2650 50 
+F3 "VDC-" O R 5300 3300 50 
+F4 "VDCGND" O R 5300 3000 50 
+F5 "V+1" I L 3500 2550 50 
+F6 "V-2" I L 3500 3450 50 
+F7 "V-1" I L 3500 2850 50 
+F8 "V+2" I L 3500 3150 50 
 $EndSheet
-Wire Wire Line
-	4100 2600 4500 2600
-Wire Wire Line
-	4100 3150 4500 3150
-Wire Wire Line
-	1850 2800 2000 2800
-Wire Wire Line
-	2000 2800 2000 2600
-Wire Wire Line
-	2000 2600 2300 2600
-Wire Wire Line
-	1450 2900 2000 2900
-Wire Wire Line
-	2000 2900 2000 3150
-Wire Wire Line
-	2000 3150 2300 3150
-Wire Wire Line
-	4500 2300 4500 2600
+$Sheet
+S 6100 2350 1800 1350
+U 60AF546F
+F0 "15V/-15V gesiebt" 50
+F1 "file60AF546E.sch" 50
+F2 "+15V_aus" O R 7900 2650 50 
+F3 "-15V_aus" O R 7900 3300 50 
+F4 "GND_aus" O R 7900 3000 50 
+F5 "VDC+" I L 6100 2650 50 
+F6 "VDC-" I L 6100 3300 50 
+F7 "VDCGND" I L 6100 3000 50 
+$EndSheet
 $Comp
-L power:GND1 #PWR06
-U 1 1 5F6A85FC
-P 4500 3400
-F 0 "#PWR06" H 4500 3150 50  0001 C CNN
-F 1 "GND1" H 4505 3227 50  0000 C CNN
-F 2 "" H 4500 3400 50  0001 C CNN
-F 3 "" H 4500 3400 50  0001 C CNN
-	1    4500 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 3150 4500 3400
-$Comp
-L power:GND1 #PWR02
-U 1 1 5F6B5EDE
-P 2550 5650
-F 0 "#PWR02" H 2550 5400 50  0001 C CNN
-F 1 "GND1" H 2555 5477 50  0000 C CNN
-F 2 "" H 2550 5650 50  0001 C CNN
-F 3 "" H 2550 5650 50  0001 C CNN
-	1    2550 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR04
-U 1 1 5F6B665E
-P 2900 5650
-F 0 "#PWR04" H 2900 5400 50  0001 C CNN
-F 1 "GND1" H 2905 5477 50  0000 C CNN
-F 2 "" H 2900 5650 50  0001 C CNN
-F 3 "" H 2900 5650 50  0001 C CNN
-	1    2900 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR01
-U 1 1 5F6B6884
-P 2550 4350
-F 0 "#PWR01" H 2550 4200 50  0001 C CNN
-F 1 "VCC" H 2565 4523 50  0000 C CNN
-F 2 "" H 2550 4350 50  0001 C CNN
-F 3 "" H 2550 4350 50  0001 C CNN
-	1    2550 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR03
-U 1 1 5F6B8BEA
-P 2900 4350
-F 0 "#PWR03" H 2900 4200 50  0001 C CNN
-F 1 "VCC" H 2915 4523 50  0000 C CNN
-F 2 "" H 2900 4350 50  0001 C CNN
-F 3 "" H 2900 4350 50  0001 C CNN
-	1    2900 4350
+L power:PWR_FLAG #FLG01
+U 1 1 5F18C573
+P 2950 2550
+F 0 "#FLG01" H 2950 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 2950 2723 50  0000 C CNN
+F 2 "" H 2950 2550 50  0001 C CNN
+F 3 "~" H 2950 2550 50  0001 C CNN
+	1    2950 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG03
-U 1 1 5F64D1D6
-P 7150 2800
-F 0 "#FLG03" H 7150 2875 50  0001 C CNN
-F 1 "PWR_FLAG" H 7150 2973 50  0000 C CNN
-F 2 "" H 7150 2800 50  0001 C CNN
-F 3 "~" H 7150 2800 50  0001 C CNN
-	1    7150 2800
+U 1 1 5F190134
+P 3200 2850
+F 0 "#FLG03" H 3200 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3023 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "~" H 3200 2850 50  0001 C CNN
+	1    3200 2850
 	1    0    0    -1  
 $EndComp
+Text Notes 5350 4750 0    50   ~ 0
+Versorgung +VDC/-VDC
 Wire Wire Line
-	9350 3150 9600 3150
-$Sheet
-S 4900 2200 1800 1350
-U 60AF546F
-F0 "12V/-12V" 50
-F1 "file60AF546E.sch" 50
-F2 "+12V_out" O R 6700 2500 50 
-F3 "-12V_out" O R 6700 3150 50 
-F4 "GND_out" O R 6700 2850 50 
-F5 "VCC_ein" I L 4900 2600 50 
-F6 "GND_ein" I L 4900 3150 50 
-$EndSheet
+	5300 2650 5800 2650
+Wire Wire Line
+	5300 3300 5600 3300
+Wire Wire Line
+	5300 3000 5450 3000
+Wire Wire Line
+	5800 4000 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	5800 2650 6100 2650
+Wire Wire Line
+	5700 4000 5700 3000
+Connection ~ 5700 3000
+Wire Wire Line
+	5700 3000 6100 3000
+Wire Wire Line
+	5600 4000 5600 3300
+Connection ~ 5600 3300
+Wire Wire Line
+	5600 3300 6100 3300
+Wire Wire Line
+	7900 2650 8500 2650
+Wire Wire Line
+	7900 3300 8300 3300
+Wire Wire Line
+	7900 3000 8400 3000
+Wire Wire Line
+	8300 4000 8300 3300
+Wire Wire Line
+	8400 4000 8400 3000
+Wire Wire Line
+	8500 4000 8500 2650
 $Comp
-L power:VCC #PWR05
-U 1 1 5F6A6DCD
-P 4500 2300
-F 0 "#PWR05" H 4500 2150 50  0001 C CNN
-F 1 "VCC" H 4515 2473 50  0000 C CNN
-F 2 "" H 4500 2300 50  0001 C CNN
-F 3 "" H 4500 2300 50  0001 C CNN
-	1    4500 2300
-	1    0    0    -1  
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 5F14912A
+P 5700 4200
+F 0 "J2" H 5618 4517 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 5618 4426 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5700 4200 50  0001 C CNN
+F 3 "~" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 2600 4900 2600
-Connection ~ 4500 2600
-Wire Wire Line
-	4500 3150 4900 3150
-Connection ~ 4500 3150
-Wire Wire Line
-	7150 2800 7150 2850
-Wire Wire Line
-	6700 2500 7150 2500
-Connection ~ 7150 2500
-Wire Wire Line
-	7150 2500 7600 2500
-Wire Wire Line
-	6700 2850 7150 2850
-Connection ~ 7150 2850
-Wire Wire Line
-	7150 2850 7150 2900
-Wire Wire Line
-	7150 2850 7600 2850
-Wire Wire Line
-	6700 3150 7150 3150
-Wire Wire Line
-	7150 3150 7600 3150
-Connection ~ 7150 3150
 $Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5F771AE4
-P 4500 3100
-F 0 "#FLG02" H 4500 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 4500 3273 50  0000 C CNN
-F 2 "" H 4500 3100 50  0001 C CNN
-F 3 "~" H 4500 3100 50  0001 C CNN
-	1    4500 3100
-	1    0    0    -1  
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 5F14B5CF
+P 8400 4200
+F 0 "J3" H 8318 4517 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 8318 4426 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 8400 4200 50  0001 C CNN
+F 3 "~" H 8400 4200 50  0001 C CNN
+	1    8400 4200
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 3100 4500 3150
 $Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5F774873
-P 4500 2650
-F 0 "#FLG01" H 4500 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 4500 2823 50  0000 C CNN
-F 2 "" H 4500 2650 50  0001 C CNN
-F 3 "~" H 4500 2650 50  0001 C CNN
-	1    4500 2650
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5F429C76
+P 2350 3050
+F 0 "J1" H 2268 2625 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 2268 2716 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal" H 2350 3050 50  0001 C CNN
+F 3 "~" H 2350 3050 50  0001 C CNN
+	1    2350 3050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4500 2650 4500 2600
+	2550 2850 2950 2850
+Wire Wire Line
+	2950 2850 2950 2550
+Wire Wire Line
+	2950 2550 3500 2550
+Wire Wire Line
+	2550 2950 3200 2950
+Wire Wire Line
+	3200 2950 3200 2850
+Wire Wire Line
+	3200 2850 3500 2850
+Wire Wire Line
+	2550 3050 3200 3050
+Wire Wire Line
+	3200 3050 3200 3150
+Wire Wire Line
+	3200 3150 3500 3150
+Wire Wire Line
+	2550 3150 2950 3150
+Wire Wire Line
+	2950 3150 2950 3450
+Wire Wire Line
+	2950 3450 3500 3450
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F42FD87
+P 2950 3450
+F 0 "#FLG02" H 2950 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 2950 3623 50  0000 C CNN
+F 2 "" H 2950 3450 50  0001 C CNN
+F 3 "~" H 2950 3450 50  0001 C CNN
+	1    2950 3450
+	-1   0    0    1   
+$EndComp
+Connection ~ 2950 3450
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5F4304EC
+P 3200 3150
+F 0 "#FLG04" H 3200 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3323 50  0000 C CNN
+F 2 "" H 3200 3150 50  0001 C CNN
+F 3 "~" H 3200 3150 50  0001 C CNN
+	1    3200 3150
+	-1   0    0    1   
+$EndComp
+Connection ~ 3200 3150
+Connection ~ 3200 2850
+Connection ~ 2950 2550
+$Comp
+L power:GND #PWR0101
+U 1 1 5F51581A
+P 8800 3050
+F 0 "#PWR0101" H 8800 2800 50  0001 C CNN
+F 1 "GND" H 8805 2877 50  0000 C CNN
+F 2 "" H 8800 3050 50  0001 C CNN
+F 3 "" H 8800 3050 50  0001 C CNN
+	1    8800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3000 8800 3000
+Wire Wire Line
+	8800 3000 8800 3050
+Connection ~ 8400 3000
+$Comp
+L power:GND #PWR0102
+U 1 1 5F516976
+P 5450 3050
+F 0 "#PWR0102" H 5450 2800 50  0001 C CNN
+F 1 "GND" H 5455 2877 50  0000 C CNN
+F 2 "" H 5450 3050 50  0001 C CNN
+F 3 "" H 5450 3050 50  0001 C CNN
+	1    5450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3050 5450 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	5450 3000 5700 3000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F5182F5
+P 5450 3000
+F 0 "#FLG0101" H 5450 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5450 3173 50  0000 C CNN
+F 2 "" H 5450 3000 50  0001 C CNN
+F 3 "~" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
