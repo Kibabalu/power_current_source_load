@@ -3,3 +3,7 @@
 power current source and load
 
 A KiCAD project.
+
+The power supply PCB:
+
+![The power supply PCB](netzteil.png)
