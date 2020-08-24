@@ -9,3 +9,5 @@ The project consists of three PCBs: A general purpose power supply PCB, the cont
 The power supply PCB:
 
 ![The power supply PCB](netzteil.png)
+
+![The power supply PCB](IMG_5364.jpeg)
