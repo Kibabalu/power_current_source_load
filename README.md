@@ -2,7 +2,7 @@
 
 power current source and load
 
-A KiCAD project.
+A KiCad project.
 
 The project consists of three PCBs: A general purpose power supply PCB, the control/supervise PCB and the main power PCB.
 
